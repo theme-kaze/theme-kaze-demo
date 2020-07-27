@@ -1,0 +1,24 @@
+language: node_js
+
+node_js:
+  - "10"
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install hexo-cli -g
+  - npm install
+  - wget -q http://gosspublic.alicdn.com/ossutil/1.6.10/ossutil64
+  - chmod +x ./ossutil64
+  - ./ossutil64 config -e ${OSS_EndPoint} -i ${OSS_AccessKeyID} -k ${OSS_AccessKeySecret} -L CH
+
+script:
+  - hexo clean
+  - hexo g
+
+after_success:
+  - ./ossutil64 rm -r -f oss://${OSS_Bucket}/
+  - ./ossutil64 cp -r -f ./public oss://${OSS_Bucket}/
+
