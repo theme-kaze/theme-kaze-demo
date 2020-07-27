@@ -1,0 +1,34 @@
+// default footer
+.footer
+  font-size: $sm-font-size
+  background-color: var(--widget-background-color)
+  transition: background-color 0.3s
+  width: 100%
+  box-shadow: var(--around-shadow-style)
+  padding: 3rem 1.5rem 3rem
+  bottom: 0
+  .footer-container
+    color: var(--info-text-color)
+    display: flex
+    justify-content: space-between
+    .copyright
+      margin-right: 80px
+    .footer-dsc
+      display: flex
+    a
+      color: var(--text-strong-color)
+      &:hover
+        color: var(--link-hover-color)
+// mobiles footer
+@media (max-width: 902px)
+  .footer
+    .footer-container
+      display: block
+      .copyright
+        margin-right: 0
+        display: flex
+        justify-content: center
+        margin-bottom: 6px
+      .footer-dsc
+        display: flex
+        justify-content: center

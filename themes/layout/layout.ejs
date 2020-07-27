@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta <% if(config.language) { %> lang="<%- config.language %>" <% } %>>
+<%- partial('_partial/head') %>
+
+<body>
+  <%# navbar %>
+  <%- partial('_partial/nav.ejs') %>
+  <%# main content %>
+  <div class="section">
+    <div class="container">
+      <div class="columns">
+        <main class="main-column"><%- body %></main>
+        <aside class="left-column">
+          <%# author card %>
+          <div class="card card-author">
+            <%- partial('_partial/author') %>
+          </div>
+          <%# sticky-tablet %>
+          <%- partial('_partial/left-aside') %>
+        </aside>
+        <aside class="right-column">
+          <%- partial('_partial/right-aside') %>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <%# footer %>
+  <%- partial('_partial/footer.ejs') %>
+  <%- partial('_partial/scrollbutton.ejs') %>
+
+  <%# plugins %>
+  <% if(theme.latex.enable) { %>
+  <%- partial('_partial/plugins/latex.ejs') %>
+  <% } %>
+  <% if(theme.fslightbox.enable) { %>
+  <%- partial('_partial/plugins/fslightbox.ejs') %>
+  <% } %>
+  <%# javascript %>
+  <%- js('js/main.js') %>
+  <script>
+    var addLazyload = function() {
+      var observer = lozad('.lozad', {
+        load: function(el) {
+          el.srcset = el.getAttribute('data-src');
+        },
+        loaded: function(el) {
+          el.classList.add('loaded');
+        }
+      });
+      observer.observe();
+    }
+  </script>
+  <script>loadScript("<%= theme.cdn.lozad %>", addLazyload)</script>
+</body>
+
+</html>
