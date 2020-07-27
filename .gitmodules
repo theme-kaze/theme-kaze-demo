@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-Kaze"]
+	path = themes/hexo-theme-Kaze
+	url = https://github.com/theme-kaze/hexo-theme-Kaze.git
