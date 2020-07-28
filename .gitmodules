@@ -1,3 +1,4 @@
 [submodule "themes/hexo-theme-Kaze"]
 	path = themes/hexo-theme-Kaze
 	url = git@github.com:theme-kaze/hexo-theme-Kaze.git
+	branch = devel
