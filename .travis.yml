@@ -11,7 +11,7 @@ cache:
     - node_modules
 
 before_install:
-  - sed -i 's/git@github.com:/https:\/\/${GITHUB_TOKEN}@github.com\//' .gitmodules
+  - sed -i 's/git@github.com:/https:\/\/songhn233:${GITHUB_TOKEN}@github.com\//' .gitmodules
   - git submodule update --init --recursive
 install:
   - npm install hexo-cli -g
