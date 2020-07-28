@@ -11,11 +11,14 @@ cache:
     - node_modules
 
 before_install:
-  - sed -i 's/git@github.com:/https:\/\/songhn233:3e21677a86e8c0dfc8058c6e054d16a8ae596f64@github.com\//' .gitmodules
+  - sed -i "s/git@github.com:/https:\/\/'$GITHUB_USER':'$GITHUB_TOKEN'@github.com\//" .gitmodules
   - git submodule update --init --recursive
 install:
   - npm install hexo-cli -g
   - npm install
+  - cd themes/hexo-theme-Kaze
+  - npm install
+  - cd ../../
   - wget -q http://gosspublic.alicdn.com/ossutil/1.6.10/ossutil64
   - chmod +x ./ossutil64
   - ./ossutil64 config -e ${OSS_EndPoint} -i ${OSS_AccessKeyID} -k ${OSS_AccessKeySecret} -L CH
