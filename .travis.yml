@@ -3,16 +3,19 @@ language: node_js
 node_js:
   - "10"
 
+git:
+  submodules: false
+
 cache:
   directories:
     - node_modules
 
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/${GITHUB_TOKEN}@github.com\//' .gitmodules
+  - git submodule update --init --recursive
 install:
   - npm install hexo-cli -g
   - npm install
-  - cd ./themes/hexo-theme-Kaze/
-  - npm install
-  - cd ../../
   - wget -q http://gosspublic.alicdn.com/ossutil/1.6.10/ossutil64
   - chmod +x ./ossutil64
   - ./ossutil64 config -e ${OSS_EndPoint} -i ${OSS_AccessKeyID} -k ${OSS_AccessKeySecret} -L CH
