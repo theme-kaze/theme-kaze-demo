@@ -1,2 +1,2 @@
 # theme-kaze-demo
-demo of hexo-theme-kaze
+Demo of hexo-theme-kaze
