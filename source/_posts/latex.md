@@ -6,7 +6,7 @@ tags:
 - katex
 - 数学公式
 categories:
-- 演示
+- 文档
 excerpt: 数学公式演示
 ---
 ### 简介
