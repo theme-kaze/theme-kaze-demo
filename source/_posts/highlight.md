@@ -5,6 +5,9 @@ tags:
 - 代码高亮
 categories:
 - 文档
+excerpt: 代码高亮文档与演示
+banner_img: https://img.songhn.com/img/latex.jpg?imageslim
+banner_img_set: https://img.songhn.com/img/latex.jpg?imageMogr2/blur/1x0/quality/1
 ---
 ### 简介
 
