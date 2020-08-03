@@ -1,5 +1,5 @@
 ---
-title: highlight
+title: 代码高亮
 date: 2020-08-03 14:47:49
 tags:
 - 代码高亮
@@ -62,7 +62,7 @@ prismjs:
 
 有八种高亮主题可选择
 
-<button class="postbutton">default</button> <button class="postbutton">coy</button> <button class="postbutton">dark</button> <button class="postbutton">funky</button> <button class="postbutton">okaidia</button> <button class="postbutton">solarizedlight</button> <button class="postbutton">tomorrow</button> <button class="postbutton">twilight</button>
+<button class="postbutton" style="color: #fff;">default</button> <button class="postbutton" style="color: #fff;">coy</button> <button class="postbutton" style="color: #fff;">dark</button> <button class="postbutton" style="color: #fff;">funky</button> <button class="postbutton" style="color: #fff;">okaidia</button> <button class="postbutton" style="color: #fff;">solarizedlight</button> <button class="postbutton" style="color: #fff;">tomorrow</button> <button class="postbutton" style="color: #fff;">twilight</button>
 
 
 #### Javascript
