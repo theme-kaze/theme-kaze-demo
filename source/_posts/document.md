@@ -22,6 +22,9 @@ Kaze是基于Hexo博客引擎的响应式主题，由[theme-kaze](https://github
 
 在Hexo5.0及以上版本中您可以直接通过输入
 
+{% note %}
+npm包暂时未上传，请先使用其他方式进行主题安装
+{% endnote %}
 ```bash
 npm install hexo-theme-kaze
 ```
