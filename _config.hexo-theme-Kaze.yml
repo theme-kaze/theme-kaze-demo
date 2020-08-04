@@ -1,10 +1,14 @@
-### Header ###
+#------------------------
+# Header config
+#------------------------
 title: theme-kaze demo
 author: theme-kaze
 logo_img: /img/Kaze.png # put the logo on the ${blog_path}/source/img/${picname}.png or use urls
 author_img: /img/Kaze.png
 author_description: designed by theme-kaze
-### navebar ###
+#------------------------
+# navebar config
+#------------------------
 menus:
   home: /
   archive: /archives
@@ -22,16 +26,6 @@ page:
       - { icon: icon-linkedin, link: / }
       - { icon: icon-stackflow, link: / }
       - { icon: icon-mail, link: / }
-
-
-### Sidebar ###
-sidebar: right
-widgets:
-  - category
-  - tag
-  - tagcloud
-  - archive
-  - recent_posts
 
 ### Links ###
 links:
@@ -53,40 +47,23 @@ links:
 
 ### Post ###
 toc:
-  show_list_number: false
-  max_depth: 6
-  min_depth: 1
+  showListNumber: false
+  maxDepth: 6
+  minDepth: 1
 
 ### Footer ###
 footer:
-  copy_year: 2019
+  copyYear: 2020
   # if showPoweredBy is ture, 'Powered by Hexo' will be seen on the footer
   showPoweredBy: true
   # if showThemeName is ture, 'Theme - Kaze' will be seen on the footer
   showThemeName: true
 
-### Up to top ###
+#------------------------
+# Up to top
+#------------------------
 # if scrollUpAnimation is true, there will be scroll-up animation.
 scrollUpAnimation: true
-
-# display widgets at the bottom of index pages (pagination == 2)
-index_widgets:
-# - category
-# - tagcloud
-# - archive
-
-# widget behavior
-archive_type: "monthly"
-show_count: false
-
-# Miscellaneous
-google_analytics:
-gauges_analytics:
-favicon: /favicon.png
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
 
 #------------------------
 # comment config
@@ -143,7 +120,7 @@ latex:
 #------------------------
 lazyload:
   enable: true
-  loadingImg: 
+  loadingImg:
 
 #------------------------
 # plugins config
