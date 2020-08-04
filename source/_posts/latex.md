@@ -11,13 +11,13 @@ excerpt: 数学公式演示
 banner_img: https://img.songhn.com/img/code.jpg?imageslim
 banner_img_set: https://img.songhn.com/img/code.jpg?imageMogr2/blur/1x0/quality/1
 ---
-### 简介
+## 简介
 
-#### 启用公式
+### 启用公式
 
 本主题支持`mathjax`和`katex`两大渲染引擎，您可以在博客主题设置`latex`中`enable: true`启用。
 
-#### 更换渲染器
+### 更换渲染器
 
 由于Hexo本身渲染器的冲突，有一部分公式无法渲染，建议采用其他渲染器，首先
 ```
@@ -32,11 +32,11 @@ npm install hexo-renderer-markdown-it-plus -S
 注意，您只可以保留一个渲染器
 {% endnote %}
 
-### 演示
+## 演示
 
 以下所有公式均通过`katex`渲染
 
-#### 整行公式
+### 整行公式
 
 $$f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz$$
 
@@ -51,7 +51,7 @@ $$\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}$$
 
 $$(\nabla_X Y)^k = X^i (\nabla_i Y)^k =X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)$$
 
-#### 行内公式
+### 行内公式
 
 求根公式是$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 

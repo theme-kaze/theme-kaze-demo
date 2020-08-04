@@ -9,7 +9,7 @@ excerpt: 代码高亮文档与演示
 banner_img: https://img.songhn.com/img/latex.jpg?imageslim
 banner_img_set: https://img.songhn.com/img/latex.jpg?imageMogr2/blur/1x0/quality/1
 ---
-### 简介
+## 简介
 
 <link rel="preload" href="/js/lib/prism/prism.min.css" as="style">
 <link rel="preload" href="/js/lib/prism/prism-coy.min.css" as="style">
@@ -20,11 +20,11 @@ banner_img_set: https://img.songhn.com/img/latex.jpg?imageMogr2/blur/1x0/quality
 <link rel="preload" href="/js/lib/prism/prism-tomorrow.min.css" as="style">
 <link rel="preload" href="/js/lib/prism/prism-twilight.min.css" as="style">
 
-#### 高亮方案
+### 高亮方案
 
 本主题没有使用自定义高亮方式，高亮方案在Hexo本身支持的`highlightjs`和`prismjs`基础上修改得到
 
-#### 使用highlightjs
+### 使用highlightjs
 
 ```yaml
 highlight:
@@ -49,7 +49,7 @@ prismjs:
 
 其他具体参数设置可参考[Hexo相关文档 ](https://hexo.io/docs/syntax-highlight)
 
-### 使用prismjs
+## 使用prismjs
 
 在`prismjs`中设置`enable: true`和`preprocess: true`即可开启 默认支持`Line Numbers`和`Show Languages`两个插件 如果需要其他插件支持可以设置`preprocess: false`
 
@@ -59,7 +59,7 @@ prismjs:
 
 设置`line_number: true`即可显示行号
 
-### 演示
+## 演示
 
 以下演示采用`prism`，`highlight`在主题效果可参见（TODO）
 
@@ -68,7 +68,7 @@ prismjs:
 <button class="postbutton" style="color: #fff;">default</button> <button class="postbutton" style="color: #fff;">coy</button> <button class="postbutton" style="color: #fff;">dark</button> <button class="postbutton" style="color: #fff;">funky</button> <button class="postbutton" style="color: #fff;">okaidia</button> <button class="postbutton" style="color: #fff;">solarizedlight</button> <button class="postbutton" style="color: #fff;">tomorrow</button> <button class="postbutton" style="color: #fff;">twilight</button>
 
 
-#### Javascript
+### Javascript
 
 ```js
 const smoothScrollToTop = () => {
@@ -86,7 +86,7 @@ setTimeout(() => {
 }, 0);
 ```
 
-#### C++
+### C++
 
 ```cpp
 #include<cstdio>
@@ -113,7 +113,7 @@ int main()
 }
 ```
 
-#### PHP
+### PHP
 
 ```php
 <?php
@@ -135,7 +135,7 @@ if(!isset($_GET['num'])){
 
 
 
-#### JSON
+### JSON
 
 ```json
 {
@@ -150,7 +150,7 @@ if(!isset($_GET['num'])){
 }
 ```
 
-#### Python
+### Python
 
 ```python
 import requests
@@ -172,7 +172,7 @@ q = requests.post(url+'/verify.php', headers=headers, data={'ans': content})
 print(q.text)
 ```
 
-#### Go
+### Go
 
 ```go
 // backup my secret key into DB
