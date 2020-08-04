@@ -44,7 +44,7 @@ git clone https://github.com/theme-kaze/hexo-theme-Kaze.git
 
 在Hexo5.0及以上版本中您可以在站点根目录中新建`_config.Kaze.yml`进行自定义配置，具体优先级参见相关文档
 
-在Hexo其他版本中您可以在站点目录`_source`文件中新建`kaze_config.yml`进行自定义配置，`kaze-config.yml`设置优先于主题配置设置
+在Hexo其他版本中您可以在站点目录`source`文件中新建`kaze_config.yml`进行自定义配置，`kaze-config.yml`设置优先于主题配置设置
 
 之后直接采取`git pull`或覆盖主题目录等方式便可直接升级无需替换配置
 
@@ -107,9 +107,10 @@ minify:
 
 ## 关于
 
-关于页面需要自行创建，在站点`_source`中新建`about`文件并在文件夹内创建`index.md`，该文件至少需要包含
+关于页面需要自行创建，在站点`source`中新建`about`文件夹并在文件夹内创建`index.md`，该文件至少需要包含
 
-```
+```yaml
+# at ${yoursite}/about/index.md
 ---
 title: 关于
 layout: about
