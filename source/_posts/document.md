@@ -99,7 +99,7 @@ minify:
 
 主题图标依赖于[iconfont](https://www.iconfont.cn/)，内置了一部分社交图标，您可以自定义其他icon文件或者解决方案来添加自定义图标
 
-<img src="https://img.songhn.com/img/iconfont.png?imageView2/0/format/webp/q/75|imageslim">
+<img src="https://img.songhn.com/img/iconfont.png?imageslim">
 
 ## 首页
 
