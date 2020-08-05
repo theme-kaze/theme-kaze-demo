@@ -28,9 +28,9 @@ npm uninstall hexo-renderer-marked -S
 npm install hexo-renderer-kramed -S
 npm install hexo-renderer-markdown-it-plus -S
 ```
-
+{% note warning %}
 注意，您只可以保留一个渲染器
-
+{% endnote %}
 
 ## 演示
 
