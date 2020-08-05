@@ -72,13 +72,13 @@ scrollUpAnimation: true
 # comment config
 #------------------------
 comment:
-  enable: false
+  enable: true
   type: valine # valine | gitalk | livere | disqus | we recommend valine
   # gitalk config details can see in https://github.com/gitalk/gitalk/blob/master/readme-cn.md
   valine:
-    appId:
-    appKey:
-    placeholder: Just go go
+    appId: KxoK4Ebe5ijWF46B3vEOweiw-MdYXbMMI
+    appKey: CTkC6yslbM9aItMbEqdhJd3d
+    placeholder: 欢迎评论
     path: window.location.pathname
     avatar: mp
     meta: ["nick", "mail", "link"]
