@@ -22,9 +22,6 @@ Kaze是基于Hexo博客引擎的响应式主题，由[theme-kaze](https://github
 
 在Hexo5.0及以上版本中您可以直接通过输入
 
-{% note %}
-npm包暂时未上传，请先使用其他方式进行主题安装
-{% endnote %}
 ```bash
 npm install hexo-theme-kaze
 ```
@@ -254,3 +251,18 @@ warning
 {% note danger %}
 danger
 {% endnote %}
+
+### 备案信息
+
+您可以在主题配置文件内增加您的备案信息。
+
+```yaml
+footer:
+  #------------------------
+  # 备案配置
+  # 请将公安备案的缩略图置于 ${yoursite}/img/beian.png
+  RecordInfo: "" # '某ICP备xxx号'
+  govRecordInfo: "" # '某公网安备xxx号'
+  govRecordUrl: "" # 公网安备案信息地址
+  #------------------------
+```
