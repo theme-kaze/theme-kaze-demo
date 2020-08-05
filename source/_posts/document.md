@@ -38,9 +38,9 @@ git clone https://github.com/theme-kaze/hexo-theme-Kaze.git
 
 或者下载主题压缩包在`your site/themes`下解压，并且将`hexo-theme-Kaze`重命名为`Kaze`
 
-{% note %}
+
 重命名为`Kaze`是为了与通过`npm/yarn`下载保持一致性
-{% endnote %}
+
 
 ## 持续升级
 
@@ -50,9 +50,9 @@ git clone https://github.com/theme-kaze/hexo-theme-Kaze.git
 
 之后直接采取`git pull`或覆盖主题目录等方式便可直接升级无需替换配置
 
-{% note warning %}
+
 请关注Release中的Breaking Changes会提示对配置造成不下兼容的改动 请自行更改
-{% endnote %}
+
 
 ## 总体
 ### 懒加载
@@ -75,9 +75,9 @@ minify:
 
 中进行配置
 
-{% note warning %}
+
 需要注意开启压缩后会影响`hexo g`的性能
-{% endnote %}
+
 
 ### 主题颜色
 
@@ -232,25 +232,25 @@ fslightbox:
 
 有五种样式可以选择，`primary`，`success`，`info`，`warning`，`danger`
 
-{% note primary %}
+
 primary
-{% endnote %}
 
-{% note success %}
+
+
 success
-{% endnote %}
 
-{% note info %}
+
+
 info
-{% endnote %}
 
-{% note  warning %}
+
+
 warning
-{% endnote %}
 
-{% note danger %}
+
+
 danger
-{% endnote %}
+
 
 ### 备案信息
 
