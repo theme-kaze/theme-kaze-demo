@@ -38,7 +38,7 @@ git clone https://github.com/theme-kaze/hexo-theme-Kaze.git
 
 或者下载主题压缩包在`your site/themes`下解压，并且将`hexo-theme-Kaze`重命名为`Kaze`
 
-{% note primary %}
+{% note %}
 重命名为`Kaze`是为了与通过`npm/yarn`下载保持一致性
 {% endnote %}
 
