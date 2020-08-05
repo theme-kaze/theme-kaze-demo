@@ -17,14 +17,13 @@ menus:
   about: /about
   friends: /links
 
-page:
-  # about page config
-  about:
-    description: description
-    social_links:
-      - { icon: icon-github, link: https://github.com/theme-kaze/hexo-theme-Kaze }
-      - { icon: icon-mail, link: mailto:i@songhn.com }
-      - { icon: icon-chrome, link: https://www.google.cn/chrome/}
+
+about:
+  description: description
+  social_links:
+    - { icon: icon-github, link: https://github.com/theme-kaze/hexo-theme-Kaze }
+    - { icon: icon-mail, link: mailto:i@songhn.com }
+    - { icon: icon-chrome, link: https://www.google.cn/chrome/}
 
 #------------------------
 # Links
