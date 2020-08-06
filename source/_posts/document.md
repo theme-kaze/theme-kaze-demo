@@ -36,15 +36,15 @@ npm install hexo-theme-kaze
 git clone https://github.com/theme-kaze/hexo-theme-Kaze.git
 ```
 
-或者下载主题压缩包在`your site/themes`下解压，并且将`hexo-theme-Kaze`重命名为`Kaze`
+或者下载主题压缩包在`your site/themes`下解压，并且将`hexo-theme-kaze`重命名为`kaze`
 
 {% note %}
-重命名为`Kaze`是为了与通过`npm/yarn`下载保持一致性
+重命名为`kaze`是为了与通过`npm/yarn`下载保持一致性
 {% endnote %}
 
 ## 持续升级
 
-在Hexo5.0及以上版本中您可以在站点根目录中新建`_config.Kaze.yml`进行自定义配置，具体优先级参见相关文档
+在Hexo5.0及以上版本中您可以在站点根目录中新建`_config.kaze.yml`进行自定义配置，具体优先级参见相关文档
 
 在Hexo其他版本中您可以在站点目录`source`文件中新建`kaze_config.yml`进行自定义配置，`kaze-config.yml`设置优先于主题配置设置
 
