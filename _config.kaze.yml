@@ -61,6 +61,21 @@ footer:
   showPoweredBy: true
   # if showThemeName is ture, 'Theme - Kaze' will be seen on the footer
   showThemeName: true
+  RecordInfo: "" # your Record info such as '某ICP备xxx号'
+  govRecordInfo: "" # your gov record info such as '某公网安备xxx号'
+  govRecordUrl: "" # your gov record url
+  #------------------------
+  # pv / uv statistics config
+  #------------------------
+  statistics:
+    enable: true
+    type: busuanzi # now version only supports busuanzi
+    pv:
+      enable: true
+      style: 本站总访问量{}次 # the style will be shown as $1{pv}$2
+    uv:
+      enable: false
+      style: 本站总访客数{}次 # the style will be shown as $1{uv}$2
 
 #------------------------
 # Up to top
@@ -138,6 +153,11 @@ prism:
 # show the number of words in posts
 wordcount:
   enable: true
+analytics:
+  enable: true
+  type: google # google
+  google:
+    id: UA-167309243-2 # you can see more information in https://analytics.google.com/
 #------------------------
 # minify config
 # css minify uses autoprefixer and clean-css
@@ -188,3 +208,4 @@ cdn:
   fslightbox: //cdn.jsdelivr.net/npm/fslightbox@3.1.0/index.min.js
   lozad: /js/lib/lozad.min.js
   prism: /js/lib/prism/
+  busuanzi: /js/lib/busuanzi.min.js
