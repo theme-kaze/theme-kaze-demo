@@ -46,7 +46,7 @@ git clone https://github.com/theme-kaze/hexo-theme-Kaze.git
 
 在Hexo5.0及以上版本中您可以在站点根目录中新建`_config.kaze.yml`进行自定义配置，具体优先级参见相关文档
 
-在Hexo其他版本中您可以在站点目录`source`文件中新建`kaze_config.yml`进行自定义配置，`kaze-config.yml`设置优先于主题配置设置
+在Hexo其他版本中您可以在站点目录`source`文件夹中新建`_data`文件夹并在期中新建`kaze_config.yml`复制主题配置文件的基本配置，然后就可以进行自定义配置，`kaze-config.yml`设置优先于主题配置设置
 
 之后直接采取`git pull`或覆盖主题目录等方式便可直接升级无需替换配置
 
@@ -55,6 +55,11 @@ git clone https://github.com/theme-kaze/hexo-theme-Kaze.git
 {% endnote %}
 
 ## 总体
+
+### 多语言
+
+主题支持i18n国际化，目前支持英文与简体中文，有其他语言支持可提交PR。在站点配置文件中找到language即可修改语言`language: en`设置英文，`language: zh-CN`设置简体中文
+
 ### 懒加载
 
 在主题配置选项`lazyload`中设置`enable: true`开启懒加载（默认开启）
