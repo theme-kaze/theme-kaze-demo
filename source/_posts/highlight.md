@@ -50,12 +50,12 @@ prismjs:
 其他具体参数设置可参考[Hexo相关文档 ](https://hexo.io/docs/syntax-highlight)
 
 ## 使用prismjs
-{% note warning %}
+
 在`prismjs`中设置`enable: true`和`preprocess: true`即可开启 默认支持`Line Numbers`和`Show Languages`两个插件 如果需要其他插件支持可以设置`preprocess: false`
-{% endnote %}
 
+{% note warning %}
 当前主题版本不支持`preprocess: false`自动引入相关文件 如有相关需求请自行引入相关css与js文件
-
+{% endnote %}
 
 设置`line_number: true`即可显示行号
 
