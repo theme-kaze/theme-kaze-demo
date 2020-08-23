@@ -106,6 +106,47 @@ minify:
 
 <img src="https://img.songhn.com/img/iconfont.png?imageslim">
 
+### 站点访问量统计
+
+访问量统计目前仅支持不蒜子
+
+```yaml
+footer:
+  statistics:
+    enable: false
+    type: busuanzi # now version only supports busuanzi
+    pv:
+      enable: true
+      style: 本站总访问量{}次 # the style will be shown as $1{pv}$2
+    uv:
+      enable: true
+      style: 本站总访客数{}次
+```
+
+`enable`: 开启访问量统计（默认关闭）
+
+`type`: 目前仅支持`busuanzi`
+
+`pv`: 访问总量统计
+
+`uv`: 用户总量统计
+
+### 数据分析
+
+```yaml
+analytics:
+  enable: false
+  type: google # google
+  google:
+    id: 
+```
+
+`enable`: 开启分析支持（默认关闭）
+
+`type`: 目前仅支持`google`
+
+`google.id`: 有关谷歌分析的具体使用说明和`id`使用可以参考[谷歌文档](https://analytics.google.com/)
+
 ## 首页
 
 ### 文章头图
@@ -178,6 +219,27 @@ toc:
 ### 数学公式
 
 主题支持`mathjax`和`katex`两种渲染引擎，具体参见[相关文档](https://demo.theme-kaze.top/latex/)
+
+### copyright
+
+```yaml
+copyright:
+  enable: true
+  writer: # if writer is empty we will use config.author as writer
+  declare: 本博客所有文章除特别声明外，均采用<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0 协议</a>。转载请注明出处！
+  style: warning
+```
+`enable`: 开起版权说明（默认开启）
+
+`writer`: 作者id，如果不填则会使用主题配置`author`或站点配置`author`
+
+`declare`: 版权声明具体内容，支持html语句
+
+`style`: 声明内容样式，与note样式相同
+
+版权内容有三部分：作者、文章链接、版权声明
+
+作者使用writer参数，文章链接基于站点配置文件中`url`参数生成，版权声明使用declare参数
 
 ### Front-matter
 
