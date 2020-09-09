@@ -23,7 +23,7 @@
     "hexo-renderer-markdown-it-plus": "^1.0.4",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "hexo-theme-kaze": "^1.0.5",
+    "hexo-theme-kaze": "^1.1.0-beta1",
     "html-minifier": "^4.0.0",
     "postcss": "^7.0.32",
     "uglify-es": "^3.3.9"

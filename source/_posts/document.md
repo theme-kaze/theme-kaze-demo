@@ -92,6 +92,22 @@ minify:
 
 在主题配置选项`font`中可以设置`font-size`和`font-family`
 
+### og meta 元素
+
+`Open graph` 是由facebook推出的技术，可以帮助您在各类支持该技术的社交媒体上显示网页卡片
+
+```yaml
+og:
+  enable: true
+  title: true
+  url: true
+  image: true
+  description: true
+  article: true
+```
+- `enable`: 开启功能（默认开启）
+- `title`... : 请参见<a href="https://ogp.me">官网文档</a> 
+
 ### 静态资源
 
 主题大部分第三方资源索引都可以在主题配置选项`cdn`中进行配置，可以自定义其他资源路径
@@ -111,6 +127,15 @@ minify:
 ### 文章头图
 
 在文章`Front-matter`中`banner_img`可以设置首页头图
+
+### 小组件
+
+```yaml
+widgets:
+  showWidgetsMobiles: "none"
+```
+
+`showWidgetsMobiles` : 在窄屏幕上是否显示小组件，`none` 关闭（默认），`flex` 开启
 
 ## 关于
 
@@ -154,6 +179,19 @@ links:
 
 ## 文章页
 
+### 搜索功能
+
+```yaml
+search:
+  enable: true
+  path: search.json
+  field: posts
+  searchContent: true
+```
+- `enable` : 开启搜索功能（默认开启）
+- `path` : 文件名称（暂无用处）
+- `field` : 需要搜索的范围，支持 posts | pages | all
+- `searchContent` :  搜索文件是否包含正文内容（不建议开启，包含所有文章内容这样会使得搜索文件异常巨大）替代方案是搜索分类标签或使用algolia等第三方搜索服务（Todo）
 ### 目录
 
 主题目录通过Hexo原生函数生成，具体可参见[文档](https://hexo.io/docs/helpers#toc)
