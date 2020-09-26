@@ -101,7 +101,7 @@ comment:
     visitor: false
     highlight: true
     recordIP: false
-    serverURLs: # leancloud国内自定义域名
+    serverURLs: https://kxok4ebe.api.lncldglobal.com
     emojiCDN:
     emojiMaps: null
     enableQQ: false
