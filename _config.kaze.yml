@@ -87,7 +87,7 @@ scrollUpAnimation: true
 # comment config
 #------------------------
 comment:
-  enable: false
+  enable: true
   type: valine # valine | gitalk | livere | disqus | we recommend valine
   # gitalk config details can see in https://github.com/gitalk/gitalk/blob/master/readme-cn.md
   valine:
