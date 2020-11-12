@@ -1,3 +1,4 @@
+---
 #------------------------
 # Header config
 #------------------------
@@ -17,13 +18,12 @@ menus:
   about: /about
   friends: /links
 
-
 about:
   description: description
   social_links:
     - { icon: icon-github, link: https://github.com/theme-kaze/hexo-theme-Kaze }
     - { icon: icon-mail, link: mailto:i@songhn.com }
-    - { icon: icon-chrome, link: https://www.google.cn/chrome/}
+    - { icon: icon-chrome, link: https://www.google.cn/chrome/ }
 
 #------------------------
 # Links
@@ -52,6 +52,26 @@ toc:
   showListNumber: false
   maxDepth: 6
   minDepth: 1
+
+copyright:
+  enable: true
+  writer: # if writer is empty we will use config.author as writer
+  declare: 本博客所有文章除特别声明外，均采用<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0 协议</a>。转载请注明出处！
+  style: warning # the style uses note warning | danger | primary | info | success
+
+search:
+  enable: true
+  path: search.json
+  field: posts
+  searchContent: true
+
+og:
+  enable: true
+  title: true
+  url: true
+  image: true
+  description: true
+  article: true
 #------------------------
 # Footer
 #------------------------
@@ -61,9 +81,9 @@ footer:
   showPoweredBy: true
   # if showThemeName is ture, 'Theme - Kaze' will be seen on the footer
   showThemeName: true
-  RecordInfo: "" # your Record info such as '某ICP备xxx号'
-  govRecordInfo: "" # your gov record info such as '某公网安备xxx号'
-  govRecordUrl: "" # your gov record url
+  RecordInfo: '' # your Record info such as '某ICP备xxx号'
+  govRecordInfo: '' # your gov record info such as '某公网安备xxx号'
+  govRecordUrl: '' # your gov record url
   #------------------------
   # pv / uv statistics config
   #------------------------
@@ -96,7 +116,7 @@ comment:
     placeholder: 欢迎评论
     path: window.location.pathname
     avatar: mp
-    meta: ["nick", "mail", "link"]
+    meta: ['nick', 'mail', 'link']
     pageSize: 10
     visitor: false
     highlight: true
@@ -143,7 +163,7 @@ lazyload:
 #------------------------
 # plugins config
 #------------------------
-fslightbox:
+lightbox:
   enable: true
 # If your hexo version is below 5.0.0, please upgrade first to use this config
 # we support eight highlight themes, you can go to prism website (https://prismjs.com) for more information
@@ -175,20 +195,20 @@ minify:
 # the config of theme colors and styles
 # you can modify these presets to design different styles
 color:
-  text-color: "#3c4858"
-  text-strong-color: "#2f3d4e"
-  text-light-color: "#909faf"
-  divider-color: "#e6e8ee"
-  title-color: "#475b6d"
-  link-color: "#3273dc"
-  link-hover-color: "#6596e5"
-  info-text-color: "#909faf"
-  widget-background-color: "#fff"
-  body-background-color: "#f2f5f8"
-  border-color: "#e1e4e9"
-  pre-color: "#2d2d2d"
-  code-color: "#50687c"
-  code-background-color: "#e9eaf0"
+  text-color: '#3c4858'
+  text-strong-color: '#2f3d4e'
+  text-light-color: '#909faf'
+  divider-color: '#e6e8ee'
+  title-color: '#475b6d'
+  link-color: '#3273dc'
+  link-hover-color: '#6596e5'
+  info-text-color: '#909faf'
+  widget-background-color: '#fff'
+  body-background-color: '#f2f5f8'
+  border-color: '#e1e4e9'
+  pre-color: '#2d2d2d'
+  code-color: '#50687c'
+  code-background-color: '#e9eaf0'
 
 font:
   font-size: 16px # global font-size
@@ -205,7 +225,8 @@ cdn:
     js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
   valine: //unpkg.com/valine/dist/Valine.min.js
   livere: //cdn-city.livere.com/js/embed.dist.js
-  fslightbox: //cdn.jsdelivr.net/npm/fslightbox@3.1.0/index.min.js
+  baguetteBox: /js/lib/lightbox
   lozad: /js/lib/lozad.min.js
   prism: /js/lib/prism/
   busuanzi: /js/lib/busuanzi.min.js
+  artitalk: https://cdn.jsdelivr.net/npm/artitalk
