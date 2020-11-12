@@ -15,7 +15,7 @@ banner_img_set: https://img.songhn.com/img/code.jpg?imageMogr2/blur/1x0/quality/
 
 ### 启用公式
 
-本主题支持`mathjax`和`katex`两大渲染引擎，您可以在博客主题设置`latex`中`enable: true`启用。
+本主题支持 `mathjax` 和 `katex` 两大渲染引擎，您可以在博客主题设置 `latex` 中  `enable: true` 启用。
 
 ### 更换渲染器
 
@@ -34,7 +34,7 @@ npm install hexo-renderer-markdown-it-plus -S
 
 ## 演示
 
-以下所有公式均通过`katex`渲染
+以下所有公式均通过 `katex` 渲染
 
 ### 整行公式
 

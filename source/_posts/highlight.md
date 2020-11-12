@@ -22,7 +22,7 @@ banner_img_set: https://img.songhn.com/img/latex.jpg?imageMogr2/blur/1x0/quality
 
 ### 高亮方案
 
-本主题没有使用自定义高亮方式，高亮方案在Hexo本身支持的`highlightjs`和`prismjs`基础上修改得到
+本主题没有使用自定义高亮方式，高亮方案在Hexo本身支持的 `highlightjs` 和 `prismjs` 基础上修改得到
 
 ### 使用highlightjs
 
@@ -40,28 +40,28 @@ prismjs:
 ```
 
 {% note warning %}
-`highlight`和`prismjs`的`enable: true`只能保留一个
+`highlight` 和 `prismjs` 的 `enable: true` 只能保留一个
 {% endnote %}
 
-在站点配置文件将`highlight`设置`enable: true`即可开启 `line_number`选项本主题暂不支持显示
+在站点配置文件将 `highlight` 设置 `enable: true` 即可开启，`line_number` 选项本主题暂不支持显示
 
-若需要支持代码高亮可设置`hljs: true` 该配色方案参考了`tomorrow night`等配色主题
+若需要支持代码高亮可设置 `hljs: true`，该配色方案参考了 `tomorrow night` 等配色主题
 
-其他具体参数设置可参考[Hexo相关文档 ](https://hexo.io/docs/syntax-highlight)
+其他具体参数设置可参考 [Hexo相关文档 ](https://hexo.io/docs/syntax-highlight)
 
 ## 使用prismjs
 
-在`prismjs`中设置`enable: true`和`preprocess: true`即可开启 默认支持`Line Numbers`和`Show Languages`两个插件 如果需要其他插件支持可以设置`preprocess: false`
+在 `prismjs` 中设置 `enable: true` 和 `preprocess: true` 即可开启 默认支持 `Line Numbers` 和 `Show Languages` 两个插件 如果需要其他插件支持可以设置 `preprocess: false`
 
 {% note warning %}
-当前主题版本不支持`preprocess: false`自动引入相关文件 如有相关需求请自行引入相关css与js文件
+当前主题版本不支持 `preprocess: false` 自动引入相关文件 如有相关需求请自行引入相关 css 与 js 文件
 {% endnote %}
 
-设置`line_number: true`即可显示行号
+设置 `line_number: true` 即可显示行号
 
 ## 演示
 
-以下演示采用`prism`，`highlight`在主题效果可参见（TODO）
+以下演示采用 `prism`，`highlight` 在主题效果可参见（TODO）
 
 有八种高亮主题可选择
 
