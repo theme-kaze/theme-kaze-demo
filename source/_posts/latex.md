@@ -59,6 +59,6 @@ $$
 
 求根公式是$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 
-$E=mc^2$是智能方程式
+$E=mc^2$是质能方程式
 
 对于一个序列$a_1,a_2,\cdots,a_m$，有$a_1+a_2+\cdots+a_m=2\cdot(a_1\oplus a_2\oplus\cdots\oplus a_m)$
