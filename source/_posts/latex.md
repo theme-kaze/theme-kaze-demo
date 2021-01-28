@@ -51,6 +51,10 @@ $$\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}$$
 
 $$(\nabla_X Y)^k = X^i (\nabla_i Y)^k =X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)$$
 
+$$
+det(J_G) =\frac{\partial{x_{d+1}}}{\partial{z_{d+1}}}\frac{\partial{x_{d+2}}}{\partial{z_{d+2}}}...\frac{\partial{x_D}}{\partial{z_D}} \\
+=β_{d+1}β_{d+2}...β_{D}
+$$
 ### 行内公式
 
 求根公式是$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$

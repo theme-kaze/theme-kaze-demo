@@ -95,7 +95,7 @@ atob@^2.1.2:
   resolved "https://registry.npm.taobao.org/atob/download/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
 
-autoprefixer@^9.8.5, autoprefixer@^9.8.6:
+autoprefixer@^9.8.6:
   version "9.8.6"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.8.6.tgz#3b73594ca1bf9266320c5acf1588d74dea74210f"
   integrity sha512-XrvP4VVHdRBCdX1S3WXVD8+RyG9qeb1D5Sn1DeLiG2xfSpzellk5k54xbUERJ3M5DggQxes39UGOTP8CFrEGbg==
@@ -629,12 +629,13 @@ hexo-generator-category@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-index@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-generator-index/download/hexo-generator-index-1.0.0.tgz#8c9f157dcfa0af4f8417f77a4eb5b3831f69a719"
-  integrity sha1-jJ8Vfc+gr0+EF/d6TrWzgx9ppxk=
+hexo-generator-index@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-2.0.0.tgz#15e71f4d28ee9d2172e2d77e8d1dba04882edc8f"
+  integrity sha512-q/29Vj9BZs0dwBcF+s9IT8ymS4aYZsDwBEYDnh96C8tsX+KPY5v6TzCdttz58BchifaJpP/l9mi6u9rZuYqA0g==
   dependencies:
     hexo-pagination "1.0.0"
+    timsort "^0.3.0"
 
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
@@ -711,15 +712,13 @@ hexo-server@^1.0.0:
     open "^6.3.0"
     serve-static "^1.14.1"
 
-hexo-theme-kaze@^1.1.0-beta1:
-  version "1.1.0-beta1"
-  resolved "https://registry.yarnpkg.com/hexo-theme-kaze/-/hexo-theme-kaze-1.1.0-beta1.tgz#b9907016fdf997f146fc6ef88fa76f75e6bb9e78"
-  integrity sha512-stCtbNn/AHrKMnlelMxZjz7rEMXPsAl2CxAAShRdvRfvvypAWEsq0PC3EElqA+cd6/ZEAEyE13eGwEFjmimXgw==
+hexo-theme-kaze@^1.1.0-beta3:
+  version "1.1.0-beta3"
+  resolved "https://registry.yarnpkg.com/hexo-theme-kaze/-/hexo-theme-kaze-1.1.0-beta3.tgz#70b092e88a5e1e8caecff81762d098ffcaca1a3c"
+  integrity sha512-wJSNNJLFg6kCRJDACCPOpF+l3p8clqzYEwkaL4xEATRLD9iz2vzHZ/dGs9iFbUfYU8mziCw0l9EaT6rFzBQiGw==
   dependencies:
-    autoprefixer "^9.8.5"
     clean-css "^4.2.3"
     html-minifier "^4.0.0"
-    postcss "^7.0.32"
     uglify-es "^3.3.9"
 
 hexo-util@^2.0.0:
@@ -1461,6 +1460,11 @@ tildify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/tildify/download/tildify-2.0.0.tgz#f205f3674d677ce698b7067a99e949ce03b4754a"
   integrity sha1-8gXzZ01nfOaYtwZ6melJzgO0dUo=
+
+timsort@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
+  integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
 tiny-emitter@^2.0.0:
   version "2.1.0"
