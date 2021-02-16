@@ -197,9 +197,9 @@ layout: about
 # about page config
 about:
   description: description
-social_links:
-  - { icon: icon, link: your_links }
-  - ...more
+  social_links:
+    - { icon: icon, link: your_links }
+    - ...more
 ```
 
 在主题配置文件中按如上格式填写 `social_links` 即可创建社交链接，`icon` 相关可以参见[图标](#图标)
