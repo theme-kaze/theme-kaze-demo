@@ -4,8 +4,8 @@
 #------------------------
 title: theme-kaze demo
 author: theme-kaze
-logo_img: /img/Kaze.png # put the logo on the ${blog_path}/source/img/${picname}.png or use urls
-author_img: /img/Kaze.png
+logo_img: /img/kaze-logo.png # put the logo on the ${blog_path}/source/img/${picname}.png or use urls
+author_img: /img/kaze-logo.png
 author_description: designed by theme-kaze
 #------------------------
 # navbar config
@@ -31,7 +31,7 @@ about:
 links:
   github:
     url: https://github.com/theme-kaze/hexo-theme-Kaze
-    avatar: /img/Kaze.png
+    avatar: /img/kaze-logo.png
     description: repository
   0x4qE:
     url: https://github.com/0x4qE
