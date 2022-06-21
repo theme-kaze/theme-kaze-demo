@@ -4,8 +4,8 @@
 #------------------------
 title: theme-kaze demo
 author: theme-kaze
-logo_img: https://img.songhn.com/img/Y67gdd.png # put the logo on the ${blog_path}/source/img/${picname}.png or use urls
-author_img: https://img.songhn.com/img/Y67gdd.png
+logo_img: https://img.songhn.com/img/Y67gdd.webp # put the logo on the ${blog_path}/source/img/${picname}.png or use urls
+author_img: https://img.songhn.com/img/Y67gdd.webp
 author_description: designed by theme-kaze
 #------------------------
 # navbar config
