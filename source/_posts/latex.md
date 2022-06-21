@@ -8,8 +8,8 @@ tags:
 categories:
 - 文档
 excerpt: 数学公式演示
-banner_img: https://img.songhn.com/img/code-webp.webp?imageslim
-banner_img_set: https://img.songhn.com/img/code-webp.webp?imageMogr2/blur/1x0/quality/1
+banner_img: https://img.songhn.com/img/kaze-theme-demo-cate-math.webp?imageslim
+banner_img_set: https://img.songhn.com/img/kaze-theme-demo-cate-math.webp?imageMogr2/blur/1x0/quality/1
 ---
 ## 简介
 

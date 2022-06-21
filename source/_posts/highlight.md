@@ -6,8 +6,8 @@ tags:
 categories:
 - 文档
 excerpt: 代码高亮文档与演示
-banner_img: https://img.songhn.com/img/latex-webp.webp?imageslim
-banner_img_set: https://img.songhn.com/img/latex-webp.webp?imageMogr2/blur/1x0/quality/1
+banner_img: https://img.songhn.com/img/kaze-theme-demo-cate-code.webp?imageslim
+banner_img_set: https://img.songhn.com/img/kaze-theme-demo-cate-code.webp?imageMogr2/blur/1x0/quality/1
 ---
 ## 简介
 

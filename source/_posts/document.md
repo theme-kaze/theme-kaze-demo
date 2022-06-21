@@ -4,8 +4,8 @@ date: 2020-08-03 21:41:42
 categories:
 - 文档
 excerpt: 主题使用文档
-banner_img: https://img.songhn.com/img/gallery-webp.webp?imageslim
-banner_img_set: https://img.songhn.com/img/gallery-webp.webp?imageMogr2/blur/1x0/quality/1
+banner_img: https://img.songhn.com/img/kaze-new-preview.webp?imageslim
+banner_img_set: https://img.songhn.com/img/kaze-new-preview.webp?imageMogr2/blur/1x0/quality/1
 ---
 
 ## 主题简介
