@@ -35,11 +35,11 @@ links:
     description: repository
   0x4qE:
     url: https://github.com/0x4qE
-    avatar: https://avatars2.githubusercontent.com/u/53261721?s=460&u=fbf5c1dd292fc366113e88ff237e1b54f2b77517&v=4
+    avatar: https://img.songhn.com/img/0x4qe-avatar.jpg
     description: designer
   songhn:
     url: https://github.com/songhn233
-    avatar: https://img.songhn.com/img/logo.jpg?imageslim
+    avatar: https://img.songhn.com/img/avatar-shn-200.jpg
     description: designer
   # name1:
   #   url: https://example.com
@@ -174,7 +174,7 @@ prism:
 wordcount:
   enable: true
 analytics:
-  enable: true
+  enable: false
   type: google # google
   google:
     id: UA-167309243-2 # you can see more information in https://analytics.google.com/
