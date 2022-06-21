@@ -712,10 +712,10 @@ hexo-server@^1.0.0:
     open "^6.3.0"
     serve-static "^1.14.1"
 
-hexo-theme-kaze@^1.1.0-beta4:
-  version "1.1.0-beta4"
-  resolved "https://registry.yarnpkg.com/hexo-theme-kaze/-/hexo-theme-kaze-1.1.0-beta4.tgz#d9937ca3d1cb3d271e59b6725b8e204c10e64fcd"
-  integrity sha512-CLJLDaZJccDXOYVrkOxsIIiAwIskD1dCIkWb7fKEAN6dmVbD0loeS6Eq8TS7IPN5Z4bfrfIuVP7B35VyzZ/LoQ==
+hexo-theme-kaze@^1.1.0-beta6:
+  version "1.1.0-beta6"
+  resolved "https://registry.yarnpkg.com/hexo-theme-kaze/-/hexo-theme-kaze-1.1.0-beta6.tgz#f16a64337752b09306fd3ffafbfa130b6c8b2deb"
+  integrity sha512-Rkqo4Mrqz5VQTzjkagiil+L3tzmqBfXI0hDf/YAb3ZlCU06g3oYNUTSB4kd7WzipKUXY3OQjPcBZxo4X4v65WQ==
   dependencies:
     clean-css "^4.2.3"
     html-minifier "^4.0.0"
